@@ -5,7 +5,7 @@ time picker
 回掉特定格式时间串<br>
 
 # show
-<br>
+
 ![](https://github.com/caixingcun/picture/blob/master/timepick.gif)  
 
 
