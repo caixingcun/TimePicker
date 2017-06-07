@@ -3,15 +3,15 @@ time picker
 自定义时间选择器
 年月日 时 分  不包括秒
 回掉特定格式时间串
-show
+show<br>
 ![](https://github.com/caixingcun/picture/blob/master/timepick.gif)  
 
 
-How to
+How to<br>
 
-To get a Git project into your build:
+To get a Git project into your build:<br>
 
-project
+project<br>
   build.gradle
   
 	allprojects {
@@ -21,7 +21,7 @@ project
 		}
 	}
   
-module  
+module  <br>
   build.gradle
   
  	dependencies {
@@ -29,7 +29,7 @@ module  
 	}
   
   
-use
+use<br>
         TimePickDialog dialog = new TimePickDialog(mContext, "开始时间");<br>
                 dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);<br>
                 dialog.show();<br>
