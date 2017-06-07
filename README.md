@@ -30,12 +30,12 @@ module  
   
   
 use
-        TimePickDialog dialog = new TimePickDialog(mContext, "开始时间");
-                dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-                dialog.show();
-                dialog.setTimePickListener(new TimePickDialog.TimePickListener() {
-                    @Override
-                    public void choseTime(String time) {
-                      //todo
-                    }
-                });
+      		  TimePickDialog dialog = new TimePickDialog(mContext, "开始时间");
+             		   dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+           		     dialog.show();
+             		   dialog.setTimePickListener(new TimePickDialog.TimePickListener() {
+            		        @Override
+              		      public void choseTime(String time) {
+              		        //todo
+              		      }
+              		  });
